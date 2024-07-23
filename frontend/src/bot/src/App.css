@@ -1,0 +1,103 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ece5dd; /* Background color for the whole app */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling for overflow content */
+  background-color: #f9f9f9;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  word-wrap: break-word; /* Wrap words that exceed max width */
+}
+
+.message.user {
+  align-self: flex-end; /* Align user messages to the right */
+  background-color: #D3D3D3;
+  border-bottom-right-radius: 0;
+}
+
+.message.bot {
+  align-self: flex-start; /* Align bot messages to the left */
+  background-color: #fff;
+  border-bottom-left-radius: 0;
+  border: 1px solid #ddd;
+  position: relative; /* Allow positioning of the robot logo */
+}
+
+.robot-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; /* Space between the logo and the message */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
+
+.input-container input {
+  flex-grow: 1; /* Allow the input to take up available space */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-container button:hover {
+  background-color: #333;
+}

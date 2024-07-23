@@ -1,0 +1,39 @@
+
+{
+    "questions": [
+      {
+        "question": "hi",
+        "answer": "hey"
+      },
+      {
+        "question": "what is your name",
+        "answer": "baymax"
+      },
+      {
+        "question": "how are you",
+        "answer": "I'm just a computer program, so I don't have feelings, but thanks for asking!"
+      },
+      {
+        "question": "hellow",
+        "answer": "hellow"
+      },
+      {
+        "question": "i think your so good",
+        "answer": "thank you! How are you doing?"
+      },
+      {
+        "question": "can you help me",
+        "answer": "yes Certainly! What do you want to know?"
+      },
+      {
+        "question": "What is your restaurant",
+        "answer": "Our resturant is the Thammanna resort . It is located in Wijayakupotha Chilaw. It has many types of food and drinks. Tasting them will give you a taste experience like never before. Also, this restaurant can be reserved for the parties you want."
+      },
+      {
+        "question": "what are the menu",
+        "answer": "We have lot of foods, It has type of Beverage, Milkshakes,soups, different type foods Teas and coffees."
+      }
+     
+    ]
+  }
+  
